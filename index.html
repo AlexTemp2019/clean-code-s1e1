@@ -24,7 +24,7 @@
         <div class="add_wrapper">
           <h3>Add Item</h3>
           <div class="add-row">
-            <input id="new-task" class="task" type="text" /><button>Add</button>
+            <input id="new-task" class="task-item__text task-item__text_new" type="text" /><button>Add</button>
           </div>
         </div>
         <section class="todo">
@@ -33,18 +33,18 @@
             <li class="task-item">
               <input class="input-checkbox" type="checkbox" />
               <label class="task-item__label">Pay Bills</label>
-              <input class="task-item__text" type="text" />
-              <button class="task-item__btn-edit">Edit</button>
-              <button class="task-item__btn-delete">
+              <input class="task-item__text task-item__text_hide" type="text" />
+              <button class="btn btn_edit">Edit</button>
+              <button class="btn btn_delete">
                 <img class="task-item__img" src="./remove.svg" alt="remove" />
               </button>
             </li>
             <li class="task-item task-item_editMode">
               <input class="input-checkbox" type="checkbox" />
               <label class="task-item__label">Go Shopping</label>
-              <input class="task-item__text" type="text" value="Go Shopping" />
-              <button class="task-item__btn-edit">Save</button>
-              <button class="task-item__btn-delete">
+              <input class="task-item__text task-item__text_hide" type="text" value="Go Shopping" />
+              <button class="btn btn_edit">Save</button>
+              <button class="btn btn_delete">
                 <img class="task-item__img" src="./remove.svg" alt="remove" />
               </button>
             </li>
@@ -56,9 +56,9 @@
             <li>
               <input class="input-checkbox" type="checkbox" checked />
               <label class="task-item__label">See the Doctor</label>
-              <input class="task-item__text" type="text" />
-              <button class="task-item__btn-edit">Edit</button>
-              <button class="task-item__btn-delete">
+              <input class="task-item__text task-item__text_hide" type="text" />
+              <button class="btn btn_edit">Edit</button>
+              <button class="btn btn_delete">
                 <img class="task-item__img" src="./remove.svg" alt="remove" />
               </button>
             </li>
