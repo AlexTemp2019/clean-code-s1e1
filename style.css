@@ -38,6 +38,19 @@ h3 {
   font-family: fantasy, cursive;
 }
 
+.btn {
+  background: none;
+  border: 0px;
+  color: #888;
+  font-size: 15px;
+  width: 60px;
+  font-family: Lato, sans-serif;
+  cursor: pointer;
+}
+.btn:hover {
+  color: #3a3a3a;
+}
+
 @media (max-width: 768px) {
   .header {
     text-align: center;
@@ -85,36 +98,11 @@ h3 {
 
 .item__text_edit {
   display: inline-block;
-  width: 224px;
+  flex-grow: 1;
 }
 .item__text:focus {
   color: #333;
 }
-
-.btn {
-  background: none;
-  border: 0px;
-  color: #888;
-  font-size: 15px;
-  width: 60px;
-  font-family: Lato, sans-serif;
-  cursor: pointer;
-}
-.btn:hover {
-  color: #3a3a3a;
-}
-
-/* New Task */
-/* label[for="new-task"] {
-  display: block;
-  margin: 0 0 20px;
-} */
-
-/* Task list */
-
-/* li > * {
-  vertical-align: middle;
-} */
 
 .item-checkbox {
   margin: 0 10px;
@@ -124,7 +112,7 @@ h3 {
   padding-left: 10px;
   box-sizing: border-box;
   font-size: 18px;
-  width: 226px;
+  flex-grow: 1;
 }
 
 .item__label_edit {
@@ -139,14 +127,3 @@ h3 {
 .item__img:hover {
   transform: rotateZ(0);
 }
-
-/* Completed */
-
-/* ul li.editMode input[type="text"] {
-  display: inline-block;
-  width: 224px;
-}
-
-ul li.editMode label {
-  display: none;
-} */
