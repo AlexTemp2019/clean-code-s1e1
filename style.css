@@ -5,7 +5,7 @@ body {
   font-family: Lato, sans-serif;
 }
 
-.title{
+.title {
   color: #333;
   font-weight: 700;
   font-size: 15px;
@@ -46,11 +46,9 @@ body {
 }
 
 @media (max-width: 768px) {
-
   .header {
     text-align: center;
   }
-
 }
 
 .wrapper {
@@ -64,13 +62,13 @@ body {
   margin-top: 20px;
 }
 
-.task-list{
+.task-list {
   margin: 0;
   padding: 0px;
 }
 
 .item {
-  list-style: none; 
+  list-style: none;
   overflow: hidden;
   padding: 20px 0;
   border-bottom: 1px solid #eee;
@@ -109,7 +107,7 @@ body {
   color: #333;
 }
 
-.item-checkbox {
+.item__checkbox {
   margin: 0 10px;
 }
 
@@ -122,6 +120,11 @@ body {
 
 .item__label_edit {
   display: none;
+}
+
+.item__label_completed {
+  text-decoration: line-through;
+  color: #888;
 }
 
 .item__img {
